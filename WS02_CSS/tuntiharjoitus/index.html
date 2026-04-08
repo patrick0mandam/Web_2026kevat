@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My first HTML page</title>
+    <style>
+        p {
+            color: blue;
+        }
+
+        body {
+            background-color: lightgray;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+        .content-box {
+            padding: 20px;
+            margin: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="email"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"] :hover {
+            background-color: #45a049;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Welcome to my first Page</h1>
+    <p>This is a paragraph.</p>
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQGhGREYHGHUNQ/profile-displayphoto-scale_400_400/B4DZ1OQPH0KoAo-/0/1775134373637?e=1776902400&v=beta&t=ymymcM2MazJDeUvYDvpuCffDXv1mje0FOQ0Vvt-Do10" alt="Kuvalinkki on rikki..">
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Dualsense EDGE</li>
+        <li>Epiphone Hummingbird</li>
+        <li>Martin MEC13 13-56</li>
+    </ol>
+<h2>Unordered List</h2>
+<ul>
+    <li>Playstation 5</li>
+    <li>Reaver Vandal</li>
+    <li>Sage wall</li>
+</ul>
+<a href="https://www.linkedin.com/in/patrick-o-3a4900303">Connect with me on LinkedIn</a>
+<table>
+    <tr>
+        <th>Websivuston kehittäminen</th>
+        <th>Professional communication in English</th>
+    </tr>
+    <tr>
+        <td>HTML, CSS</td>
+        <td>Oral skills, Written skills</td>
+    </tr>
+    <tr>
+        <td>Javascript, Python</td>
+        <td>Vocabulary, Literature</td>
+    </tr>
+</table>
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+    <div class="content-box">
+        <h3>More about me</h3>
+        <p>This is a text that I will keep updating throughout the course.</p>
+    </div>
+</form>
+</body>
+</html>
