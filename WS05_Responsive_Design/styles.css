@@ -1,7 +1,6 @@
         header {
             background-color: lightskyblue;
             text-align: center;
-            img: 250px;
         }
 
         h2 {
@@ -82,7 +81,7 @@
 
         .responsive-nav .nav-list {
             display: flex;
-            list-style: none;
+            list-style: lower-alpha;
         }
 
         @media (max-width: 600px) {
