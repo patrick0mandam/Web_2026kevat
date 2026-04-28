@@ -1,66 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WS04: Page Layout</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WS04: Page Layout</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Website</h1>
+    <img src="./images/Li%20PP.jpg" alt="Responsive Image" class="responsive-image">
+    <nav class="responsive-box">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
 
-  <body>
-    <header>
-      <h1>My Website</h1>
-      <img
-        src="./images/Li PP.jpg"
-        alt="Responsive Image"
-        class="responsive-image"
-      />
-      <nav class="responsive-box">
-        <button class="menu-toggle">☰ Menu</button>
-        <ul class="nav-list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <hr />
-    </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        In this assignment, I learned about responsive design and how to
+        create layouts that adapt to different screen sizes.
+      </p>
+    </section>
 
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>
-          In this assignment, I learned about responsive design and how to
-          create layouts that adapt to different screen sizes.
-        </p>
-      </section>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+    </div>
+    <br>
+    <div class="flex-container">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+    <br>
+    <div class="media-query-box">Resize the window to see the effect</div>
+    <hr>
 
-      <div class="grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-      </div>
-      <br />
-      <div class="flex-container">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-      </div>
-      <br />
-      <div class="media-query-box">Resize the window to see the effect</div>
-      <hr />
+    <div class="responsive-container">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+    </div>
+  </main>
 
-      <div class="responsive-container">
-        <div class="column">Column 1</div>
-        <div class="column">Column 2</div>
-      </div>
-    </main>
-
-    <footer>
-      <p>&copy; copyright reserved</p>
-    </footer>
-  </body>
+  <footer>
+    <p>&copy; copyright reserved</p>
+  </footer>
+</body>
 </html>
