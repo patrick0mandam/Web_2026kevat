@@ -1,0 +1,112 @@
+header {
+    text-align: center;
+    color: wheat;
+}
+
+.nav {
+    background-color: maroon;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(200, 0, 0);
+    color: wheat;
+}
+
+.nav-pills .nav-link {
+    color: wheat;
+    font-size: 1.25rem;
+    font-family: 'Aileron', sans-serif;
+}
+
+
+.lead {
+    font-size: 1.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+    text-align: justify;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+figure {
+    text-align: center;
+    margin: 15px;
+}
+
+
+.lead {
+    font-size: 1.25rem;
+    font-family: 'Aileron', sans-serif;
+    line-height: 2;
+    text-align: center;
+    color: white;
+}
+
+.carousel-item {
+    text-align: center;
+    font-size: smaller;
+}
+
+.carousel-caption {
+    width: 25%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+body {
+    background-color: maroon;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100vh;
+  padding: 50px;
+
+  background: rgb(103, 4, 4);
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+}
+
+.hero-logo {
+  width: 300px;
+  height: auto;
+  align-self: start;
+}
+
+.hero-right h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: wheat;
+}
+
+.hero-right p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: wheat;
+}
+
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+}

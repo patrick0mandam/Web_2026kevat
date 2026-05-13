@@ -3,27 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skene</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./app.js"></script>
 </head>
-
 <body>
     <header>
-        <h1>Skene Two Times</h1>
-        <nav>
-            <a href="Home" class="active">Home</a>
-            <a href="About Us" class="">About Us</a>
-            <a href="Contact Us" class="">Contact Us</a>
-        </nav>
-    </header>
+        <!-- SVG Filter for Glass Distortion -->
+<svg style="display: none">
+  <filter id="glass-distortion">
+    <feTurbulence type="turbulence" baseFrequency="0.008" numOctaves="2" result="noise" />
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="77" />
+  </filter>
+</svg>
 
+<nav class="glass-nav">
+  <div class="glass-filter"></div>
+  <div class="glass-overlay"></div>
+  <div class="glass-specular"></div>
+  <div class="glass-content">
+    <ul class="nav-list">
+      <li><a href="#" class="nav-item active">Home</a></li>
+      <li><a href="#" class="nav-item">About</a></li>
+      <li><a href="#" class="nav-item">Services</a></li>
+      <li><a href="#" class="nav-item">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+    </header>
     <main>
-        <h1>Get to Know Skene&copy;</h1>
-        <p>Para sa kinabukasan ng Kultura.</p>
-        
+
     </main>
-    
     <footer>
-        <p>&copy; Forlyfe est. 2023</p>
+
     </footer>
+
 </body>
 </html>
+
+
+
+
+<nav class="nav nav-pills nav-fill">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Collaborations</a>
+                    <a class="nav-link" href="#">Graphic Designs</a>
+                    <a class="nav-link disabled" aria-disabled="true">Contact Us</a>
+            </nav>
